@@ -18,7 +18,7 @@ RUN \
  && apt-get clean \
  && rm -f /var/lib/apt/lists/deb* /var/lib/apt/lists/sec*
 
-RUN pip3 install --no-cache-dir --progress-bar off fritzcollectd
+RUN pip3 install --no-cache-dir --progress-bar off fritzcollectd==0.6.3
 
 # Copy entrypoint script.
 COPY entrypoint.sh /
