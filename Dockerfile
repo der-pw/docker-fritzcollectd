@@ -12,6 +12,8 @@ RUN \
         python3-pip \
         python3-requests \
         python3-lxml \
+        libxml2-dev \
+        libxslt-dev \
         gcc \
  && apt-get clean \
  && rm -f /var/lib/apt/lists/deb* /var/lib/apt/lists/sec*
