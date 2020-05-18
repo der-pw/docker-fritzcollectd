@@ -7,8 +7,6 @@ RUN apk add --no-cache \
         collectd-network \
         python3 \
         py3-pip \
-#        libxml2 \
-#        libxslt \
 #        libxml2-dev libxslt-dev python-dev
         py3-lxml \
         py3-pbr
