@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
 # Install collectd and dependencies for fritzcollectd.
 RUN apk add --no-cache \
@@ -10,7 +10,7 @@ RUN apk add --no-cache \
 #        py3-setuptools \
 #        gcc \
 #        libxml2-dev libxslt-dev python3-dev \
-        py3-lxml \
+        py3-lxml==4.3.4-r0 \
         py3-pbr
 
 RUN pip3 install --no-cache-dir --progress-bar off fritzcollectd==0.7.0
