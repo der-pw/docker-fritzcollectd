@@ -8,6 +8,7 @@ RUN apk add --no-cache \
         python3 \
         py3-pip \
         py3-setuptools \
+        gcc \
         libxml2-dev libxslt-dev python3-dev \
 #        py3-lxml \
         py3-pbr
