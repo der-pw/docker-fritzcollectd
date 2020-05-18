@@ -9,7 +9,7 @@ RUN apk add --no-cache \
         py2-pip \
         libxml2 \
         libxslt \
-        py2-lxml
+        libxml2-dev libxslt-dev python-dev
 
 RUN pip install --no-cache-dir --progress-bar off fritzcollectd==0.7.0
 
