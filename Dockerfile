@@ -6,7 +6,10 @@ RUN apk add --no-cache \
         collectd-python \
         collectd-network \
         python2 \
-        py2-pip 
+        py2-pip \
+        libxml2 \
+        libxslt \
+        py2-lxml
 
 RUN pip install --no-cache-dir --progress-bar off fritzcollectd==0.7.0
 
