@@ -20,7 +20,6 @@ via collectd, influxdb to Grafana.
    typesdb = "/usr/share/collectd/types.db"
 ```
 
-
 #### Credits:
 FRITZ!Box Router Status - Christian Fetzer
 The idea with the dashboard was probably the pitch.
