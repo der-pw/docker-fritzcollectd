@@ -1,4 +1,4 @@
-# docker-compose.yml für docker-fritzcollectd
+## docker-compose.yml for docker-fritzcollectd
 
 A docker-compose file for setting up a metric collector
 via collectd, influxdb to Grafana.
