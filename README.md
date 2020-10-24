@@ -29,5 +29,6 @@ The idea of ​​packing collectd into a Docker container with a FritzBox conne
 https://github.com/rudelm/docker-collectd-fritzbox
 
 Stripdown of the image from approx. 200MB to approx. 70MB - volschin
+
 https://github.com/volschin/docker-fritzcollectd
 https://hub.docker.com/r/volschin/fritzcollectd
