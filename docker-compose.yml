@@ -2,7 +2,7 @@ version: '3'
 
 services:
   collectd:
-    image: volschin/fritzcollectd:latest
+    image: derpw/fritzcollectd:latest
     container_name: fritzcollectd
 
     environment:
