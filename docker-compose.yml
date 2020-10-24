@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  collectd:
+    image: volschin/fritzcollectd:latest
+    container_name: fritzcollectd
+
+    environment:
+      - FRITZ_IP=192.168.178.1
+      - FRITZ_USER=<user>
+      - FRITZ_PASSWORD=<passwd>
+      - EP_HOST=0.0.0.0 #where  your influxdb is located
+      - EP_PORT=25826
+
+    ports:
+      - "25826:25826"
