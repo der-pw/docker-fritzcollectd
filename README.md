@@ -21,7 +21,7 @@ via collectd, influxdb to Grafana.
 ```
 
 #### Credits:
-FRITZ!Box Router Status - Christian Fetzer
+FRITZ!Box Router Status - Christian Fetzer  
 The idea with the dashboard was probably the pitch.  
 https://grafana.com/grafana/dashboards/713
 
